@@ -6,6 +6,7 @@ Uncommon Logical stuff of Elixir modules,definitions and some coding snippets th
         defp defname (variables) do
             //your definition goes here 
         end
+    ```
 ######Example
     ```elixir
         defmodule Mymodule do
@@ -18,7 +19,8 @@ Uncommon Logical stuff of Elixir modules,definitions and some coding snippets th
             end
         end
     ```
-######Description
+######Description           
+
 ---          
 Here `defp` stands for the private function which means you cannot call that function out side module by importing like this `Mymodule.private_function`.This can be used only inside the another functions in the module it has been defined in our example it can be called inside the `public_function`
 ---              
