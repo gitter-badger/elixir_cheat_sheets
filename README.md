@@ -2,11 +2,11 @@
 Uncommon Logical stuff of Elixir modules,definitions and some coding snippets that makes our life easy.         
 ###1 :Creating Private Functions
 ######Code
-    ```elixir
-        defp defname (variables) do
-            //your definition goes here 
-        end
-    ```
+```elixir
+defp defname (variables) do
+    //your definition goes here 
+end
+```
 ######Example
     ```elixir
         defmodule Mymodule do
