@@ -130,4 +130,4 @@ application:which_applications()     -- moduleName:functionName()
 ```elixir
 :observer.start
 ```
-["observer.image"](assets/observer_chart.png)
+![observer.image](assets/observer_chart.png)
