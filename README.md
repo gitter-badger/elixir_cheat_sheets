@@ -86,6 +86,10 @@ In the above code the `fall_velocity` function takes two params one is `distance
 ######Code
 ```elixir
 defmodule myModule do
+@moduledoc """
+Explanation about the module
+""
+@vsn 0.1 -- moduel version
 @doc """
 your documentation here can have multiple 
 lines of text 
@@ -105,10 +109,25 @@ h(moduleName.functionName)
 s(modulename.functionName)
 ```
 ######Description   
-Here `h()` stands for help when you type like that you will be displayed with the `@doc` text and similarly when you type `s()` you will be getting the function specifications it explains what parameters has to pass and what it returns when you call or simply what has to give to the function and what it will give in return.      
+Here `h()` stands for help when you type like that you will be displayed with the `@doc` text and similarly when you type `s()` you will be getting the function specifications it explains what parameters has to pass and what it returns when you call or simply what has to give to the function and what it will give in return.          
 
 
-  
-              
-              
-              
+###6 :Using Erlang From Elixir
+ ######Code
+ ```elixir
+ :application.which_applications
+ :erlang.module_info
+ ```
+ ######Description   
+ here the `list_applications` returns the list of applications being executed in an Erlang VM .This is the way to use the function from Elixir.         
+ The erlang would be like this           
+```
+application:which_applications()     -- moduleName:functionName() 
+```
+
+###7 :Observer GUI
+######Code
+```elixir
+:observer.start
+```
+["observer.image"]('assets/observer_chart.png')
