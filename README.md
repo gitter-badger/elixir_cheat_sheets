@@ -1,4 +1,6 @@
 # elixir_cheat_sheets
+
+[![Join the chat at https://gitter.im/elixir_cheat_sheets/Lobby](https://badges.gitter.im/elixir_cheat_sheets/Lobby.svg)](https://gitter.im/elixir_cheat_sheets/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Uncommon Logical stuff of Elixir modules,definitions and some coding snippets that makes our life easy.         
 ###1 :Creating Private Functions
 ######Code
